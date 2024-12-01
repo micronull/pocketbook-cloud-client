@@ -1,0 +1,20 @@
+{
+  "providers": [
+    {
+      "alias": "pocketbook_de",
+      "name": "Pocketbook.de",
+      "shop_id": "1",
+      "icon": "https://pocketbook.de/static/version1732018432/webapi_rest/_view/de_DE/images/logo.svg",
+      "icon_eink": "https://pocketbook.de/static/version1732018432/webapi_rest/_view/de_DE/images/logo.svg",
+      "logged_by": "password"
+    },
+    {
+      "alias": "bookland_ru",
+      "name": "bookland new",
+      "shop_id": "35",
+      "icon": "https://bookland.ru/static/version1718368600/frontend/Pocketbook/russia/ru_RU/images/logo.svg",
+      "icon_eink": "https://bookland.ru/static/version1718368600/frontend/Pocketbook/russia/ru_RU/images/logo.svg",
+      "logged_by": "facebook|gmail"
+    }
+  ]
+}
