@@ -18,6 +18,7 @@ const (
 	DefaultPath   = "/api/v1.0/"
 
 	login = "auth/login"
+	books = "books"
 )
 
 type Client struct {

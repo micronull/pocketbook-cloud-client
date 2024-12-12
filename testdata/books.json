@@ -1,0 +1,161 @@
+{
+  "total": 2,
+  "items": [
+    {
+      "id": "76220203",
+      "path": "/voina-i-mir.epub",
+      "title": "Война и мир",
+      "mime_type": "application/epub+zip",
+      "created_at": "2024-12-11T15:41:28Z",
+      "purchased": false,
+      "resource_id": null,
+      "bytes": 2039555,
+      "client_mtime": "2024-12-10T15:41:28Z",
+      "collections": null,
+      "fast_hash": "5c624ec0db399a8f1b99eddabf1e22c1",
+      "favorite": false,
+      "read_status": "read",
+      "link": "https://cloud.pocketbook.digital/api/v1.0/files/voina-i-mir.epub?fast_hash=5c624ec0db399a8f1b99eddabf1e22c1&access_token=some.token",
+      "hasLinks": true,
+      "format": "epub",
+      "md5_hash": "WW/v6YxXMXC2Zi4a5x71oA==",
+      "mtime": "2024-12-11T14:42:17Z",
+      "name": "voina-i-mir.epub",
+      "read_percent": 100,
+      "percent": "100",
+      "isDrm": false,
+      "isLcp": false,
+      "isAudioBook": false,
+      "metadata": {
+        "title": "Война и мир",
+        "track_number": null,
+        "authors": "Толстой Л.Н.",
+        "cover": [
+          {
+            "width": 300,
+            "height": 291,
+            "path": "https://cloud.pocketbook.digital/api/v1.0/fileops/cover/voina-i-mir.epub.cover_s.jpg?fast_hash=5c624ec0db399a8f1b99eddabf1e22c1&access_token=some.token"
+          },
+          {
+            "width": 600,
+            "height": 582,
+            "path": "https://cloud.pocketbook.digital/api/v1.0/fileops/cover/voina-i-mir.epub.cover_b.jpg?fast_hash=5c624ec0db399a8f1b99eddabf1e22c1&access_token=some.token"
+          }
+        ],
+        "genres": null,
+        "lang": "ru",
+        "publisher": "ДА!Медиа",
+        "size": null,
+        "duration": null,
+        "updated": "2024-12-11T15:41:31Z",
+        "year": 2014,
+        "isbn": "9785447237509",
+        "series": null,
+        "annotation": null,
+        "book_id": [
+          "urn:uuid:95f0109f-dacc-48fc-9bb5-9456c37803b7"
+        ],
+        "fixed_layout": false,
+        "series_ord": null
+      },
+      "position": {
+        "pointer": "some_position_pointer",
+        "pointer_pb": "some_position_pointer_pb",
+        "percent": 10,
+        "page": 1,
+        "pages_total": 999,
+        "updated": null,
+        "offs": 0
+      },
+      "read_position": {
+        "pointer": null,
+        "pointer_pb": null,
+        "percent": 0,
+        "page": null,
+        "pages_total": 0,
+        "updated": null,
+        "offs": 0
+      },
+      "action": "create",
+      "action_date": "2024-11-11T15:41:28Z"
+    },
+    {
+      "id": "76220340",
+      "path": "/puteshestvie-iz-peterburga-v-moskvu.epub",
+      "title": "Путешествие из Петербурга в Москву",
+      "mime_type": "application/epub+zip",
+      "created_at": "2024-12-11T15:44:46Z",
+      "purchased": false,
+      "resource_id": null,
+      "bytes": 292816,
+      "client_mtime": "2024-12-11T15:44:45Z",
+      "collections": null,
+      "fast_hash": "01882d1bb27a52caba5d8459c80db321",
+      "favorite": true,
+      "read_status": "reading",
+      "link": "https://cloud.pocketbook.digital/api/v1.0/files/puteshestvie-iz-peterburga-v-moskvu.epub?fast_hash=01882d1bb27a52caba5d8459c80db321&access_token=some.token",
+      "hasLinks": true,
+      "format": "epub",
+      "md5_hash": "6gDHcYaOMWA9qoovZeSUZw==",
+      "mtime": "2024-12-11T15:44:50Z",
+      "name": "puteshestvie-iz-peterburga-v-moskvu.epub",
+      "read_percent": 4,
+      "percent": "4",
+      "isDrm": false,
+      "isLcp": false,
+      "isAudioBook": false,
+      "metadata": {
+        "title": "Путешествие из Петербурга в Москву",
+        "track_number": null,
+        "authors": "Радищев А.Н.",
+        "cover": [
+          {
+            "width": 256,
+            "height": 400,
+            "path": "https://cloud.pocketbook.digital/api/v1.0/fileops/cover/puteshestvie-iz-peterburga-v-moskvu.epub.cover_s.jpg?fast_hash=01882d1bb27a52caba5d8459c80db321&access_token=some.token"
+          },
+          {
+            "width": 512,
+            "height": 800,
+            "path": "https://cloud.pocketbook.digital/api/v1.0/fileops/cover/puteshestvie-iz-peterburga-v-moskvu.epub.cover_b.jpg?fast_hash=01882d1bb27a52caba5d8459c80db321&access_token=some.token"
+          }
+        ],
+        "genres": null,
+        "lang": "ru",
+        "publisher": null,
+        "size": null,
+        "duration": null,
+        "updated": "2024-12-11T15:44:50Z",
+        "year": 2019,
+        "isbn": null,
+        "series": null,
+        "annotation": null,
+        "book_id": [
+          "urn:uuid:8f743510-6b3e-4bbe-9d3f-447ef0788ad0"
+        ],
+        "fixed_layout": false,
+        "series_ord": null
+      },
+      "position": {
+        "pointer": null,
+        "pointer_pb": null,
+        "percent": 0,
+        "page": null,
+        "pages_total": 0,
+        "updated": null,
+        "offs": 0
+      },
+      "read_position": {
+        "pointer": null,
+        "pointer_pb": null,
+        "percent": 0,
+        "page": null,
+        "pages_total": 0,
+        "updated": null,
+        "offs": 0
+      },
+      "action": "create",
+      "action_date": "2024-12-11T15:44:46Z"
+    }
+  ]
+}

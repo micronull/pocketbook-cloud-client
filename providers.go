@@ -37,7 +37,7 @@ func (c Client) Providers(ctx context.Context, userName string) ([]Provider, err
 
 	body, err := c.req(req)
 	if err != nil {
-		return nil, fmt.Errorf("%s userName=%s: %w", login, userName, err)
+		return nil, fmt.Errorf("get providers userName=%s: %w", userName, err)
 	}
 
 	var data struct {

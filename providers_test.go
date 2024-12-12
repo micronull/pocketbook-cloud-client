@@ -77,14 +77,12 @@ func TestClient_Providers(t *testing.T) {
 	assert.Equal(t, expected, got)
 }
 
-func TestClient_Providers_HTTPCode_NoOk(t *testing.T) {
+func TestClient_Providers_Error_StatusCode_NoOk(t *testing.T) {
 	t.Parallel()
 
 	ctrlMock := gomock.NewController(t)
 	httpMock := mocks.NewMockDoer(ctrlMock)
-
 	client := pbc.New(pbc.WithHTTPClient(httpMock))
-
 	code := rand.N(399) + 200 // rand http code > 200 and < 600
 
 	httpMock.EXPECT().
@@ -105,9 +103,7 @@ func TestClient_Providers_Error(t *testing.T) {
 
 	ctrlMock := gomock.NewController(t)
 	httpMock := mocks.NewMockDoer(ctrlMock)
-
 	client := pbc.New(pbc.WithHTTPClient(httpMock))
-
 	errExpected := errors.New("something went wrong")
 
 	httpMock.EXPECT().

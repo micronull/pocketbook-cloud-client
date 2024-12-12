@@ -81,9 +81,7 @@ func TestClient_Login_HTTPCode_NoOk(t *testing.T) {
 
 	ctrlMock := gomock.NewController(t)
 	httpMock := mocks.NewMockDoer(ctrlMock)
-
 	client := pbc.New(pbc.WithHTTPClient(httpMock))
-
 	code := rand.N(399) + 200 // rand http code > 200 and < 600
 
 	httpMock.EXPECT().
@@ -104,9 +102,7 @@ func TestClient_Login_Error(t *testing.T) {
 
 	ctrlMock := gomock.NewController(t)
 	httpMock := mocks.NewMockDoer(ctrlMock)
-
 	client := pbc.New(pbc.WithHTTPClient(httpMock))
-
 	errExpected := errors.New("something went wrong")
 
 	httpMock.EXPECT().
