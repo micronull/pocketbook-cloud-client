@@ -62,7 +62,7 @@
         "pointer": "some_position_pointer",
         "pointer_pb": "some_position_pointer_pb",
         "percent": 10,
-        "page": 1,
+        "page": "1",
         "pages_total": 999,
         "updated": null,
         "offs": 0

@@ -67,7 +67,7 @@ type BookPosition struct {
 	Pointer    string
 	PointerPb  string
 	Percent    int
-	Page       int
+	Page       string
 	PagesTotal int
 	Updated    time.Time
 	Offs       int
@@ -77,7 +77,7 @@ type BookReadPosition struct {
 	Pointer    string
 	PointerPb  string
 	Percent    int
-	Page       int
+	Page       string
 	PagesTotal int
 	Updated    time.Time
 	Offs       int
@@ -154,7 +154,7 @@ func (c Client) Books(ctx context.Context, token string, limit, offset int) (Boo
 				Pointer    string    `json:"pointer"`
 				PointerPb  string    `json:"pointer_pb"`
 				Percent    int       `json:"percent"`
-				Page       int       `json:"page"`
+				Page       string    `json:"page"`
 				PagesTotal int       `json:"pages_total"`
 				Updated    time.Time `json:"updated"`
 				Offs       int       `json:"offs"`
@@ -163,7 +163,7 @@ func (c Client) Books(ctx context.Context, token string, limit, offset int) (Boo
 				Pointer    string    `json:"pointer"`
 				PointerPb  string    `json:"pointer_pb"`
 				Percent    int       `json:"percent"`
-				Page       int       `json:"page"`
+				Page       string    `json:"page"`
 				PagesTotal int       `json:"pages_total"`
 				Updated    time.Time `json:"updated"`
 				Offs       int       `json:"offs"`
