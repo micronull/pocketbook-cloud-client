@@ -31,7 +31,7 @@ type Token struct {
 
 func (c Client) Login(ctx context.Context, lreq LoginRequest) (Token, error) {
 	q := url.Values{}
-	q.Set("store_id", lreq.ShopID)
+	q.Set("shop_id", lreq.ShopID)
 	q.Set("username", lreq.UserName)
 	q.Set("password", lreq.Password)
 	q.Set("client_id", c.clientID)

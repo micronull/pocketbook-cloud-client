@@ -46,7 +46,7 @@ func TestClient_Login(t *testing.T) {
 			return isAllTrue(
 				assert.Equal(t, http.MethodPost, req.Method),
 				assert.Equal(t, "application/x-www-form-urlencoded", req.Header.Get("Content-Type")),
-				assert.Equal(t, storeID, req.FormValue("store_id")),
+				assert.Equal(t, storeID, req.FormValue("shop_id")),
 				assert.Equal(t, userName, req.FormValue("username")),
 				assert.Equal(t, password, req.FormValue("password")),
 				assert.Equal(t, clientID, req.FormValue("client_id")),
